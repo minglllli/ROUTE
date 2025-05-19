@@ -1,0 +1,12 @@
+dataset: "cifar100_set1"
+root: "/path/to/your/dataset"
+num_p: 40
+num_u: 40000
+positive_label_list: [9, 10, 16, 28, 61, 22, 39, 40, 86, 87, 5, 20, 25, 84, 94, 12, 17, 37, 68, 76, 23, 33, 49, 60, 71, 2, 11, 35, 46, 98, 8, 13, 48, 58, 90, 41, 69, 81, 85, 89]
+num_classes: 2
+generation_setting: "two_sample"
+classnames: ["various man-made objects, scenes, and people, including vehicles, household electrical devices, household furniture, large man-made outdoor things, large natural outdoor scenes, people, small man-made outdoor things, and small man-made indoor things", "various living organisms and plants, including aquatic mammals, fish, flowers, fruits, vegetables, insects, large carnivores, large omnivores and herbivores, medium-sized mammals, non-insect invertebrates, reptiles, small mammals, and trees"]
+p_prior: 0.4
+
+
+
